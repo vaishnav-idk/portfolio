@@ -1,0 +1,199 @@
+.style_changer_container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: fixed;
+    right: -160px;
+    top: 30px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.theme_expand{
+    right: 5px;
+    transition: 0.5s;
+}
+
+.style_changer_container .style_changer_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.style_changer_container .style_changer_buttons button{
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    background-color: var(--texture-color);
+    border: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 1px grey;
+    color: var(--text-color);
+}
+
+.style_changer_container .style_changer_options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: var(--texture-color);
+    box-shadow: 0 0 2px 1px grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.style_changer_container .style_changer_options h5{
+    transition: 0s;
+}
+
+.style_changer_container .style_changer_options ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+    
+}
+
+.style_changer_container .style_changer_options button{
+    height: 20px;
+    width: 20px;
+    border: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 1px grey;
+}
+
+
+.style_changer_container .style_changer_options .orangered{
+    background-color: orangered ;
+}
+
+.style_changer_container .style_changer_options .purple{
+    background-color: purple ;
+}
+
+.style_changer_container .style_changer_options .teal{
+    background-color: teal ;
+}
+
+.style_changer_container .style_changer_options .goldenrod{
+    background-color: goldenrod ;
+}
+
+
+
+
+
+
+  /*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){
+    .style_changer_container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        position: fixed;
+        right: -160px;
+        top: 110px;
+        transition: 0.5s;
+        z-index: 1;
+    }
+
+    .theme_expand{
+        right: 5px;
+        transition: 0.5s;
+    }
+
+    
+}
+
+
+/*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 768px){
+
+    .style_changer_container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        position: fixed;
+        right: -160px;
+        top: 110px;
+        transition: 0.5s;
+        z-index: 1;
+    }
+
+    .theme_expand{
+        right: 5px;
+        transition: 0.5s;
+    }
+}
+
+
+/*############################# Laptop ##############################################*/
+@media (min-width: 769px) and (max-width: 1920px){}
+
+
+  /*############################# 4K Laptop ##############################################*/
+
+  @media (min-width: 1921px){
+
+    .style_changer_container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        position: fixed;
+        right: -400px;
+        top: 30px;
+        transition: 0.5s;
+        z-index: 1;
+    }
+    
+    .theme_expand{
+        right: 10px;
+        transition: 0.5s;
+    }
+
+    .style_changer_container .style_changer_buttons button{
+        height: 80px;
+        width: 80px;
+        font-size: 40px;
+        background-color: var(--texture-color);
+        border: transparent;
+        border-radius: 50%;
+        box-shadow: 0 0 2px 1px grey;
+        color: var(--text-color);
+    }
+    
+    .style_changer_container .style_changer_options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: var(--texture-color);
+        box-shadow: 0 0 2px 1px grey;
+        padding: 10px 60px;
+        border-radius: 10px;
+    }
+    
+    .style_changer_container .style_changer_options h5{
+        transition: 0s;
+        font-size: 40px;
+    }
+    
+    .style_changer_container .style_changer_options ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-top: 10px;
+        
+    }
+    
+    .style_changer_container .style_changer_options button{
+        height: 50px;
+        width: 50px;
+        border: transparent;
+        border-radius: 50%;
+        box-shadow: 0 0 2px 1px grey;
+    }
+
+  }

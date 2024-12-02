@@ -1,0 +1,99 @@
+.service_main{
+    width: 90%;
+    /* background-color: red; */
+    margin-bottom: 50px;
+}
+
+.service_main h1{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+  /*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){
+  .service_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+}
+
+
+/*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 768px){
+
+  .service_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+/*############################# Laptop ##############################################*/
+@media (min-width: 769px) and (max-width: 1920px){
+
+  .service_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+}
+}
+
+
+  /*############################# 4K Laptop ##############################################*/
+
+  @media (min-width: 1921px){
+
+    .service_main h1{
+      font-size: 60px;
+    }
+    .service_container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 100px;
+      justify-content: start;
+  }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){}
+
+
+/*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 768px){}
+
+
+/*############################# Laptop ##############################################*/
+@media (min-width: 769px) and (max-width: 1920px){}
+
+
+/*############################# 4K Laptop ##############################################*/
+
+@media (min-width: 1921px){}
