@@ -1,0 +1,49 @@
+.footer_container{
+    background-color: var(--texture-color);
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 5px 1px grey;
+    height: 50px;
+    
+}
+
+.footer_container p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+/*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){}
+
+
+  /*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 768px){}
+
+
+  /*############################# Laptop ##############################################*/
+@media (min-width: 769px) and (max-width: 1920px){}
+
+
+
+  /*############################# 4K Laptop ##############################################*/
+
+  @media (min-width: 1921px){
+    .footer_container{
+      background-color: var(--texture-color);
+      width: 100%;
+      padding: 20px;
+      box-shadow: 0 0 5px 1px grey;
+      height: 100px;
+      
+  }
+  
+  .footer_container p{
+      text-align: center;
+      font-weight: bold;
+      font-size: 40px;
+  }
+  }

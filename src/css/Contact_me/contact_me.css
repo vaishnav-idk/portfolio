@@ -1,0 +1,286 @@
+
+
+
+  /*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){
+
+    .contact_me_main{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+        height: max-content;
+        margin-bottom: 50px;
+    }
+    .contact_me_main h1{
+        margin-bottom: 20px;
+    }
+    
+    .contact_me_container{
+        display: flex;
+        flex-direction : column;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact_me_container a{
+        text-decoration: none;
+        color: var(--text-color);
+        background-color: var(--texture-color);
+        border-radius: 10px;
+        padding: 5px;
+        transform: translateY(0px);
+        box-shadow: 0 0 5px 1px grey;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    /* .contact_me_container a:hover{
+        transform: translateY(-5px);
+        transition: 0.5s;
+        box-shadow: 0 0 10px 1px grey
+    } */
+    
+    .contact_me_container a ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 250px;
+        gap: 10px;
+        justify-self: center;
+    }
+    
+    
+    .contact_me_container a ul i{
+        font-size: 30px;
+        color: var(--secondary-color);
+    }
+    
+    .contact_me_container ul .platform{
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contact_me_container ul .link{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+
+/*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 1023px){
+
+    .contact_me_main{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+        height: max-content;
+        margin-bottom: 50px;
+    }
+    .contact_me_main h1{
+        margin-bottom: 20px;
+    }
+    
+    .contact_me_container{
+        display: flex;
+        flex-direction : column;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact_me_container a{
+        text-decoration: none;
+        color: var(--text-color);
+        background-color: var(--texture-color);
+        border-radius: 10px;
+        padding: 5px;
+        transform: translateY(0px);
+        box-shadow: 0 0 5px 1px grey;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    /* .contact_me_container a:hover{
+        transform: translateY(-5px);
+        transition: 0.5s;
+        box-shadow: 0 0 10px 1px grey
+    } */
+    
+    .contact_me_container a ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 250px;
+        gap: 10px;
+        justify-self: center;
+    }
+    
+    
+    .contact_me_container a ul i{
+        font-size: 30px;
+        color: var(--secondary-color);
+    }
+    
+    .contact_me_container ul .platform{
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contact_me_container ul .link{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+
+/*############################# Laptop ##############################################*/
+@media (min-width: 1024px) and (max-width: 1920px){
+
+    .contact_me_main{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+        height: max-content;
+        margin-bottom: 50px;
+    }
+    .contact_me_main h1{
+        margin-bottom: 20px;
+    }
+    
+    .contact_me_container{
+        display: flex;
+        flex-direction : row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .contact_me_container a{
+        text-decoration: none;
+        color: var(--text-color);
+        background-color: var(--texture-color);
+        border-radius: 10px;
+        padding: 5px;
+        transform: translateY(0px);
+        box-shadow: 0 0 2px 1px grey;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .contact_me_container a:hover{
+        transform: translateY(-5px);
+        transition: 0.5s;
+        box-shadow: 0 0 5px 1px grey
+    }
+    
+    .contact_me_container a ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-width: 20vw;
+        max-width: 100px;
+        gap: 10px;
+    }
+    
+    
+    .contact_me_container a ul i{
+        font-size: 30px;
+        color: var(--secondary-color);
+    }
+    
+    .contact_me_container ul .platform{
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contact_me_container ul .link{
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+}
+
+
+
+  /*############################# 4K Laptop ##############################################*/
+
+  @media (min-width: 1921px){
+
+    .contact_me_main{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+        height: max-content;
+        margin-bottom: 50px;
+    }
+    .contact_me_main h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .contact_me_container{
+        display: flex;
+        flex-direction : row;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .contact_me_container a{
+        text-decoration: none;
+        color: var(--text-color);
+        background-color: var(--texture-color);
+        border-radius: 10px;
+        padding: 20px;
+        transform: translateY(0px);
+        box-shadow: 0 0 2px 1px grey;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .contact_me_container a:hover{
+        transform: translateY(-5px);
+        transition: 0.5s;
+        box-shadow: 0 0 5px 1px grey
+    }
+    
+    .contact_me_container a ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-width: 20vw;
+        max-width: 100px;
+        gap: 20px;
+    }
+    
+    
+    .contact_me_container a ul i{
+        font-size: 60px;
+        color: var(--secondary-color);
+    }
+    
+    .contact_me_container ul .platform{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contact_me_container ul .link{
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+  }

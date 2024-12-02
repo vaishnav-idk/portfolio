@@ -1,0 +1,131 @@
+:root {
+        --primary-color: aliceblue;
+        --secondary-color: orangered;
+        --texture-color: white;
+        --text-color: black;
+        scroll-behavior: smooth;
+        /* var(--primary-color): aliceblue;
+        var(--secondary-color): orangered;
+        var(--texture-color): white; 
+        var(--text-color): black*/
+}
+
+
+
+
+/*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){
+  .portfolio_main{
+    height: 100%;
+  }
+
+  .main-content {
+    height: 100%;
+    margin-top: 40px;
+    /* padding: 20px; */
+    /* padding-top: 60px; */
+    transition: 0.5s; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: var(--primary-color);
+    
+  }
+  
+  
+  .shift{
+    margin-top: 100px;
+    transition: 0.5s; 
+  }
+}
+
+
+  /*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 768px){
+
+  .portfolio_main{
+    height: 100%;
+  }
+
+  .main-content {
+    height: 100%;
+    margin-top: 40px;
+    /* padding: 20px; */
+    /* padding-top: 60px; */
+    transition: 0.5s; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: var(--primary-color);
+  }
+  
+  
+  .shift{
+    margin-top: 100px;
+    transition: 0.5s; 
+  }
+}
+
+
+  /*############################# Laptop ##############################################*/
+@media (min-width: 769px) and (max-width: 1920px){
+  .portfolio_main{
+    width: 100%;
+  }
+  p{
+    font-family: sans-serif;
+  }
+  .main-content {
+    height: 100%;
+    margin-left: 50px;
+    /* padding: 20px; */
+    /* padding-top: 60px; */
+    transition: 0.5s; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: var(--primary-color);
+  }
+  
+  
+  .shift{
+    margin-left: 200px;
+    transition: 0.5s; 
+  }
+}
+
+
+  /*############################# 4K Laptop ##############################################*/
+
+@media (min-width: 1921px){
+
+  .portfolio_main{
+    width: 100%;
+  }
+  p{
+    font-family: sans-serif;
+  }
+  .main-content {
+    height: 100%;
+    margin-left: 100px;
+    /* padding: 20px; */
+    /* padding-top: 60px; */
+    transition: 0.5s; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: var(--primary-color);
+  }
+  
+  
+  .shift{
+    margin-left: 400px;
+    transition: 0.5s; 
+  }
+}
+
+

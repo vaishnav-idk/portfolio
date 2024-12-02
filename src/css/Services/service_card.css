@@ -1,0 +1,215 @@
+.service_card_container{
+  width: fit-content;
+  
+}
+
+
+.service_card_detail{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px grey;
+  background-color: var(--texture-color);
+  z-index: 0;
+}
+
+.service_card_detail .icon{
+  color: var(--secondary-color);
+  padding: 20px 0 0 0 ;
+  font-size: 40px;
+  text-align: center;
+}
+
+.service_card_detail h3{
+  color: var(--secondary-color);
+  padding: 20px;
+}
+
+.service_card_detail p{
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+
+
+
+/*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){}
+
+
+  /*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 768px){
+
+  .service_card_detail{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px grey;
+    background-color: var(--texture-color);
+    z-index: 0;
+    justify-items: center;
+    transform: translateY(0px);
+    transition: 0.5s;
+  }
+  .service_card_detail:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 0 10px 1px grey;
+  }
+  .service_card_detail .icon{
+    color: var(--secondary-color);
+    padding: 20px 0 0 0 ;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .service_card_detail h3{
+    color: var(--secondary-color);
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .service_card_detail p{
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+}
+
+
+  /*############################# Small Laptop ##############################################*/
+@media (min-width: 769px) and (max-width: 1024px){
+
+  .service_card_detail{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px grey;
+    background-color: var(--texture-color);
+    z-index: 0;
+    justify-items: center;
+    transform: translateY(0px);
+    transition: 0.5s;
+  }
+  .service_card_detail:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 0 10px 1px grey;
+  }
+  .service_card_detail .icon{
+    color: var(--secondary-color);
+    padding: 20px 0 0 0 ;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .service_card_detail h3{
+    color: var(--secondary-color);
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  .service_card_detail p{
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+}
+
+/*############################ Laptop L ########################### */
+@media (min-width: 1025px) and (max-width: 1920px){
+
+  .service_card_detail{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px grey;
+    background-color: var(--texture-color);
+    z-index: 0;
+    justify-items: center;
+    transform: translateY(0px);
+    transition: 0.5s;
+  }
+  .service_card_detail:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 0 10px 1px grey;
+  }
+  .service_card_detail .icon{
+    color: var(--secondary-color);
+    padding: 20px 0 0 0 ;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .service_card_detail h3{
+    color: var(--secondary-color);
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  .service_card_detail p{
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+}
+
+
+  /*############################# 4K Laptop ##############################################*/
+
+  @media (min-width: 1921px){
+
+    .service_card_detail{
+      position: relative;
+      width: 500px;
+      height: 550px;
+      margin: 10px;
+      overflow-x: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 5px 1px grey;
+      background-color: var(--texture-color);
+      z-index: 0;
+      justify-items: center;
+      transform: translateY(0px);
+      transition: 0.5s;
+    }
+
+    .service_card_detail:hover{
+      transform: translateY(-5px);
+      transition: 0.5s;
+      box-shadow: 0 0 10px 1px grey;
+    }
+        
+    .service_card_detail .icon{
+      color: var(--secondary-color);
+      padding: 20px;
+      font-size: 100px;
+    }
+    
+    
+    .service_card_detail h3{
+      color: var(--secondary-color);
+      padding: 20px;
+      font-size: 30px;
+    }
+    
+    .service_card_detail p{
+      text-align: justify;
+      padding: 0px 20px;
+      font-size: 30px;
+    }
+
+  }

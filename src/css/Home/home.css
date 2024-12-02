@@ -1,0 +1,186 @@
+
+.home_container{
+    background-attachment: fixed;
+    background-size: 60%;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/*############################# Mobile S/M/L size ##############################################*/
+@media (max-width: 424px){
+  
+
+
+  .home_container h1{
+    text-shadow: 0 0 2px grey ;
+    font-size: 20px;
+  }
+  .home_container h2{
+    text-shadow: 0 0 2px grey ;
+    font-size: 20px;
+  }
+  .home_container p{
+    text-shadow: 0 0 2px grey ;
+    font-size: 15px;
+  }
+
+  .home_container button{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: 2px solid var(--text-color);
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .home_container h1 .name{
+      color: var(--secondary-color); 
+  }
+  
+  .home_container h2 .post{
+      color: var(--secondary-color);
+  }
+}
+
+
+  /*############################# Tablet size ##############################################*/
+@media (min-width: 425px) and (max-width: 768px){
+  
+  .home_container h1{
+    text-shadow: 0 0 2px grey ;
+    font-size: 25px;
+  }
+  .home_container h2{
+    text-shadow: 0 0 2px grey ;
+    font-size: 25px;
+  }
+  .home_container p{
+    text-shadow: 0 0 2px grey ;
+    font-size: 15px;
+  }
+
+  .home_container button{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: 2px solid var(--text-color);
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .home_container h1 .name{
+      color: var(--secondary-color); 
+  }
+  
+  .home_container h2 .post{
+      color: var(--secondary-color);
+  }
+}
+
+
+  /*############################# Laptop ##############################################*/
+@media (min-width: 769px) and (max-width: 1920px){
+
+  .home_container{
+    background-size: 40vh;
+  }
+
+  .home_container h1{
+    text-shadow: 0 0 2px grey ;
+    font-size: 25px;
+  }
+  .home_container h2{
+    text-shadow: 0 0 2px grey ;
+    font-size: 25px;
+  }
+  .home_container p{
+    text-shadow: 0 0 2px grey ;
+    font-size: 20px;
+  }
+
+  .home_container button{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: 2px solid var(--text-color);
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .home_container h1 .name{
+      color: var(--secondary-color); 
+  }
+  
+  .home_container h2 .post{
+      color: var(--secondary-color);
+  }
+}
+
+
+  /*############################# 4K Laptop ##############################################*/
+
+  @media (min-width: 1921px){
+
+    .home_container{
+      background-size: 40vh;
+    }
+
+  .home_container h1{
+      font-size: 60px;
+      text-shadow: 0 0 2px grey ;
+  }
+  .home_container h2{
+    font-size: 60px;
+    text-shadow: 0 0 2px grey ;
+}
+  
+  .home_container h1 .name{
+      color: var(--secondary-color); 
+      font-size: 60px;
+  }
+  
+  .home_container h2 .post{
+      color: var(--secondary-color);
+      font-size: 60px;
+  }
+  .home_container p{
+    font-size: 40px;
+    text-shadow: 0 0 2px grey ;
+  }
+
+  .home_container button{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    border: 2px solid var(--text-color);
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  }
